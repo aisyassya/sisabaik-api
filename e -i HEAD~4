@@ -1,0 +1,19 @@
+[33m6845da3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/vue-components[m[33m, [m[1;31morigin/feature/vue-components[m[33m)[m feat: build SisaBaik Vue components
+[33m146f921[m feat: build SisaBaik Vue components
+[33me4cea90[m feat: build SisaBaik Vue components
+[33md4978d3[m[33m ([m[1;31morigin/feature/auth-rbac[m[33m, [m[1;32mfeature/auth-rbac[m[33m)[m fix: wire auth router and helmet in app
+[33m63314c2[m test: verify role and ownership access
+[33mc84db42[m feat: add authentication and ownership checks
+[33ma5cfade[m[33m ([m[1;31morigin/feature/rest-postgresql[m[33m, [m[1;32mfeature/rest-postgresql[m[33m)[m test: verify CRUD transactions and API contract
+[33m66ed9c7[m feat: align HTTP errors and API test page
+[33m0d741b9[m feat: integrate REST API with PostgreSQL
+[33mea07205[m feat: add validation and database transaction helper
+[33m5cc06db[m[33m ([m[1;31morigin/feature/database-postgresql[m[33m, [m[1;32mfeature/database-postgresql[m[33m)[m Chore: update gitignore file
+[33md2b6d4c[m feat: connect Node to PostgreSQL safely
+[33m97a0d4d[m test: add order transaction and integrity checks
+[33m52e25c6[m feat: add database queries and CRUD practice
+[33m80318a6[m feat: add relational database schema
+[33m501d825[m[33m ([m[1;31morigin/feature/backend-awal[m[33m, [m[1;32mfeature/backend-awal[m[33m)[m feat: add middleware and API test page
+[33m281ce76[m feat: add offer and order routes
+[33m7187ebd[m feat: initialize Express server
+[33m21b5e82[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m Initial commit
