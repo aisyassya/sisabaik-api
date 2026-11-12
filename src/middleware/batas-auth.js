@@ -28,7 +28,7 @@ export const batasRegistrasi = rateLimit({
       error: {
         code: "REGISTRATION_RATE_LIMIT",
         message:
-          "Terlalu banyak pendaftaran. Silakan coba kembali sesuai RetryAfter.",
+          "Terlalu banyak pendaftaran. Silakan coba kembali sesuai Retry-After.",
       },
     });
   },

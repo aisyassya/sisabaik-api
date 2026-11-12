@@ -31,7 +31,8 @@ export function validasiForm(form, waktuSekarang = Date.now()) {
       nilai < min ||
       nilai > max
     ) {
-      errors[field] = `${field} wajib bilangan bulat ${min} sampai ${max}.`;
+      errors[field] =
+        `${field} wajib bilangan bulat ${min} sampai ${max}.`;
     }
     return nilai;
   };
@@ -59,7 +60,8 @@ export function validasiForm(form, waktuSekarang = Date.now()) {
     !Number.isFinite(waktu.getTime()) ||
     waktu.getTime() <= waktuSekarang
   ) {
-    errors.berakhirPada = "Pilih tanggal dan jam yang masih di masa depan.";
+    errors.berakhirPada =
+      "Pilih tanggal dan jam yang masih di masa depan.";
   } else {
     data.berakhirPada = waktu.toISOString();
   }

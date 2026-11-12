@@ -1,7 +1,6 @@
 <script setup>
 import Ikon from "./Ikon.vue";
 import { visualKategori } from "../lib/visual.js";
-
 const props = defineProps({
   pencarian: { type: String, required: true },
   kategori: { type: String, required: true },
@@ -9,7 +8,6 @@ const props = defineProps({
 });
 const emit = defineEmits(["ubah-pencarian", "ubah-kategori", "reset"]);
 </script>
-
 <template>
   <form
     class="filter"

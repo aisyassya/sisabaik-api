@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+ 
 const base = process.argv[2] ?? "http://127.0.0.1:3000";
 if (!["127.0.0.1", "localhost"].includes(new URL(base).hostname)) {
   throw new Error("Uji hanya pada server lokal latihan.");
@@ -20,7 +21,7 @@ try {
   assert.equal(penawaran.status, 201, JSON.stringify(penawaran.body));
   const id = penawaran.body.data.id;
   const payload = { emailPembeli: "siti.pembeli@example.test",
-  items: [{ penawaranId: id, kuantitas: 1 }] };
+    items: [{ penawaranId: id, kuantitas: 1 }] };
   const hasil = await Promise.all([
     kirim("/api/pesanan", payload), kirim("/api/pesanan", payload)
   ]);
